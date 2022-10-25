@@ -20,5 +20,5 @@ task.py -m 0a
 Получено в 233 : 0a29d3579310936a8c5fc78871602442 YQ4VC8T24P
 task.py -m bb -n 23
 Получено в 1262 : bb621c1396a0b3f4957912dc5352bece PUEF3A9AEHYMFMB5XL5CFSV
-task.py -m fa -n 40 -f out.txt
+task.py -m fa -n 40 -f out.txt 
 Получено в 147 : fa8ba0dee9043c8568ad78920fcffc09 8ARRCNYU667M0BUJXQA63YXPARF6W3NSM5341OFU
