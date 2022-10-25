@@ -3,22 +3,22 @@ Python скрипт генерации случайной строки зада�
 
 Task EN: Write a script in Python that generates random string of defined length with defined first byte of MD5 hash and store this string to a file with defined name. Script parameters (default values are given in parentheses) are: length or random string (10), random string MD5 first byte (0x00), name of file to store random string into (randomfile.txt).
 Example of script output:
->task.py
-[+] Got in 475 : 002a932b6225c5ba1cb5a7dde8db33cf XASGXRVA0A
->task.py -m 0a
-[+] Got in 233 : 0a29d3579310936a8c5fc78871602442 YQ4VC8T24P
->task.py -m bb -n 23
-[+] Got in 1262 : bb621c1396a0b3f4957912dc5352bece PUEF3A9AEHYMFMB5XL5CFSV
->task.py -m fa -n 40 -f out.txt
-[+] Got in 147 : fa8ba0dee9043c8568ad78920fcffc09 8ARRCNYU667M0BUJXQA63YXPARF6W3NSM5341OFU
+task.py
+Got in 475 : 002a932b6225c5ba1cb5a7dde8db33cf XASGXRVA0A
+task.py -m 0a
+Got in 233 : 0a29d3579310936a8c5fc78871602442 YQ4VC8T24P
+task.py -m bb -n 23
+Got in 1262 : bb621c1396a0b3f4957912dc5352bece PUEF3A9AEHYMFMB5XL5CFSV
+task.py -m fa -n 40 -f out.txt
+Got in 147 : fa8ba0dee9043c8568ad78920fcffc09 8ARRCNYU667M0BUJXQA63YXPARF6W3NSM5341OFU
 
 Task RU: Напишите скрипт на языке Python, который генерирует случайную строку заданной длины с заданным первым байтом MD5-хэша и сохраняет эту строку в файл с заданным именем. Параметры скрипта (в скобках указаны значения по умолчанию): длина случайной строки (10), первый байт MD5 случайной строки (0x00), имя файла для сохранения случайной строки (randomfile.txt).
 Пример вывода сценария:
->task.py
-[+] Получено в 475 : 002a932b6225c5ba1cb5a7dde8db33cf XASGXRVA0A
->task.py -m 0a
-[+] Получено в 233 : 0a29d3579310936a8c5fc78871602442 YQ4VC8T24P
->task.py -m bb -n 23
-[+] Получено в 1262 : bb621c1396a0b3f4957912dc5352bece PUEF3A9AEHYMFMB5XL5CFSV
->task.py -m fa -n 40 -f out.txt
-[+] Получено в 147 : fa8ba0dee9043c8568ad78920fcffc09 8ARRCNYU667M0BUJXQA63YXPARF6W3NSM5341OFU
+task.py
+Получено в 475 : 002a932b6225c5ba1cb5a7dde8db33cf XASGXRVA0A
+task.py -m 0a
+Получено в 233 : 0a29d3579310936a8c5fc78871602442 YQ4VC8T24P
+task.py -m bb -n 23
+Получено в 1262 : bb621c1396a0b3f4957912dc5352bece PUEF3A9AEHYMFMB5XL5CFSV
+task.py -m fa -n 40 -f out.txt
+Получено в 147 : fa8ba0dee9043c8568ad78920fcffc09 8ARRCNYU667M0BUJXQA63YXPARF6W3NSM5341OFU
